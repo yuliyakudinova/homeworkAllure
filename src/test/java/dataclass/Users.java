@@ -2,26 +2,26 @@ package dataclass;
 
 public class Users {
 
+    private final String city;
     private final String name;
-    private final String phoneNumber;
-    private final String cityName;
+    private final String phone;
 
     public Users(String name, String phoneNumber, String cityName) {
         this.name = name;
-        this.phoneNumber = phoneNumber;
-        this.cityName = cityName;
+        this.phone = phoneNumber;
+        this.city = cityName;
     }
 
     public String getName() {
         return name;
     }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
+    public String getPhone() {
+        return phone;
     }
 
-    public String getCityName() {
-        return cityName;
+    public String getCity() {
+        return city;
     }
 }
 
